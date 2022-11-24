@@ -1,4 +1,4 @@
-# Distributed Arcface Training in Pytorch
+# Distributed InterFace Training in Pytorch
 
 This is a deep learning library that makes face recognition efficient, and effective, which can train tens of millions
 identity on a single server.

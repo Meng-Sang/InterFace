@@ -1,4 +1,7 @@
-# Distributed InterFace Training in Pytorch
+# InterFace
+InterFace is a novel loss function for face recognition that enhances discriminative power by adding margin penalties between deep features and all weights, not just between features and their corresponding weights. This approach increases class separability and reduces intra-class variations, making models more robust in real-world scenarios. 
+
+## Distributed InterFace Training in Pytorch
 
 This is a deep learning library that makes face recognition efficient, and effective, which can train tens of millions
 identity on a single server.
@@ -47,3 +50,13 @@ python -m torch.distributed.launch --nproc_per_node=8 --nnodes=2 --node_rank=1 -
 
 - This repo is mainly inspired by [deepinsight/insightface](https://github.com/deepinsight/insightface)
 
+
+## Citing
+```shell
+@article{sang2022interface,
+  title={InterFace: Adjustable Angular Margin Inter-class Loss for Deep Face Recognition},
+  author={Sang, Meng and Chen, Jiaxuan and Li, Mengzhen and Tan, Pan and Pan, Anning and Zhao, Shan and Yang, Yang},
+  journal={arXiv preprint arXiv:2210.02018},
+  year={2022}
+}
+```
